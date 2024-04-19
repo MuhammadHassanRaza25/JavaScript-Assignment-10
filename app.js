@@ -89,18 +89,39 @@ for (let i = 0; i < items.length; i++) {
     }
 }
 
+//Task 7
+document.write(`<br> <br>`)
+document.write(`<h2>Task 7</h2>`)
+
+var arrNum = [24, 53, 78, 91, 12]
+var largestNum = arrNum[0]
+for (let i = 0; i < arrNum.length; i++) {
+    if(arrNum[i] > largestNum){
+        largestNum = arrNum[i]
+    }
+}
+document.write(`<h3>Array items: ${arrNum}</h3>`)
+document.write(`<h3>The largest number is ${largestNum}</h3>`)
+
+//Task 8
+document.write(`<br>`)
+document.write(`<h2>Task 8</h2>`)
+
+var num = [24, 53, 78, 91, 12]
+var smallestNum = num[0]
+for (let i = 0; i < num.length; i++) {
+    if(num[i] < smallestNum){
+        smallestNum = num[i]
+    }
+}
+document.write(`<h3>Array items: ${num}</h3>`)
+document.write(`<h3>The smallest number is ${smallestNum}</h3>`)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+//Task 9
+document.write(`<br>`)
+document.write(`<h2>Task 9</h2>`)
+for (let i = 5; i <= 100; i+=5) {
+    document.write(i+',')
+}
 
